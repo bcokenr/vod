@@ -4,9 +4,9 @@ import localFont from 'next/font/local'
 
 export const univers = localFont({
   src: [
-    { path: '../public/fonts/UniversRegular.ttf', weight: '400', style: 'normal' },
-    { path: '../public/fonts/UniversBold.ttf', weight: '700', style: 'normal' },
-    { path: '../public/fonts/UniversLight.ttf', weight: '100', style: 'normal' },
+    { path: '../../public/fonts/UniversRegular.ttf', weight: '400', style: 'normal' },
+    { path: '../../public/fonts/UniversBold.ttf', weight: '700', style: 'normal' },
+    { path: '../../public/fonts/UniversLight.ttf', weight: '100', style: 'normal' },
   ],
   variable: '--font-univers',
   display: 'swap',
