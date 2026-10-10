@@ -1,0 +1,40 @@
+.headerTitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    color: #222;
+    font-size: 3rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    @media (min-width: 768px) {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+}
+
+.sometypeMono {
+    color: #444;
+    font-size: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    font-family: "Sometype Mono", monospace;
+}
+
+.activeLink {
+    border-bottom: 1px solid #fff;
+}
+
+.pageColor {
+    background-color: #fff;
+}
+
+.backgroundMain {
+    color: #000;
+} 
