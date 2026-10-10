@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
+    "target": "esnext",
     "lib": [
       "DOM",
       "DOM.Iterable",
       "ESNext"
     ],
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
       "@/*": [
         "./*"
@@ -39,7 +39,7 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "src/lib"
-  ],
+, "src/components"  ],
   "exclude": [
     "node_modules"
   ]

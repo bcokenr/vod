@@ -1,8 +1,8 @@
 import './globals.css';
 import React from 'react';
 import type { Metadata } from 'next';
-import { zenMaruGothic, googleSans, univers, antonio, montserrat } from '@/src/lib/fonts';
-import styles from '@/src/styles/home.module.css';
+import { zenMaruGothic, googleSans, univers, antonio, montserrat } from '@/lib/fonts';
+import styles from '@/styles/home.module.css';
 
 export const metadata: Metadata = {
   title: 'VOD',
